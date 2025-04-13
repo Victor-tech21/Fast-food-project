@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de pedidos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="titulo">
+        <h1>Escolha seu combo:</h1>
+    </div>
+    <div class="comboUm" id="comboUm">
+        <h3>Combo 1</h3>
+        <p>Hamburguér com Bebida</p>
+        <button id="botaoUm" onclick="escolherCombo">Escolher</button>
+    </div>
+    <div class="comboDois">
+        <h3>Combo 2</h3>
+        <p>Hamburguér com Fritas</p>
+        <button id="botaoDois">Escolher</button>
+    </div>
+    <div class="comboTres">
+        <h3>Combo 3</h3>
+        <p>Hamburguér com Milkshake</p>
+        <button id="botaoTres">Escolher</button>
+    </div>
+    <script src="script.js"></script>
+
+    <div class="resultado">
+        <h3 id="preco">Preço: --</h3>
+        <img id="imagemCombo" class="combo-img" src="" alt="Imagem do Combo" style="display: none; width: 300px;">
+    </div>
+
+</body>
+
+<footer>
+    <p>Páginal incial de pedidos para fast food &copy;</p>
+</footer>
+</html>
